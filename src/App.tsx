@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { withAuthenticator, AmplifySignOut, AmplifySignIn} from '@aws-amplify/ui-react';
+import { withAuthenticator, AmplifySignOut, AmplifySignIn } from '@aws-amplify/ui-react';
 
 function App() {
   return (
@@ -9,7 +9,6 @@ function App() {
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
       <h1>Hello from V2</h1>
-      <AmplifySignIn />
       <AmplifySignOut />
     </header>
   </div>
